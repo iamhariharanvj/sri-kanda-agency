@@ -33,6 +33,19 @@
     .pdf-link:hover {
       background-color: #2980b9;
     }
+    img.qr {
+      max-width: 200px;
+      height: auto;
+      display: block;
+      margin-top: 10px;
+    }
+    iframe.map {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 10px;
+      border-radius: 10px;
+    }
   </style>
 </head>
 <body>
@@ -51,13 +64,30 @@
     <p>Sri Kandha Agencies</p>
     <p>40/19, Mettu Srinivasa Street</p>
     <p>Salem -1</p>
-    <p><strong>Phone:</strong> 9092155537</p>
+    <p><strong>Phone:</strong> 9751555537</p>
+    <p><strong>Office:</strong> 9092155537</p>
   </div>
 
   <div class="section">
-    <h2>PDF Documents</h2>
+    <h2>Documents</h2>
     <a class="pdf-link" href="file1.pdf" target="_blank">View FSSAI Certificate</a><br />
-    <a class="pdf-link" href="file2.pdf" target="_blank">View GST Certificate</a>
+    <a class="pdf-link" href="file2.pdf" target="_blank">View GST Certificate</a><br />
+    <a class="pdf-link" href="file3.pdf" target="_blank">View Udyam Certificate</a>
+  </div>
+
+  <div class="section">
+    <h2>QR Code</h2>
+    <img class="qr" src="qr-code.png" alt="QR Code for Payment or Contact" />
+  </div>
+
+  <div class="section">
+    <h2>Location Map</h2>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.721261203468!2d78.1596637!3d11.657709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDM5JzI3LjgiTiA3OMKwMDknNDQuMSJF!5e0!3m2!1sen!2sin!4v1712723700000!5m2!1sen!2sin"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
   </div>
 </body>
 </html>
